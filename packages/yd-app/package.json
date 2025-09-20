@@ -1,0 +1,13 @@
+{
+  "name": "yd-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.mjs"
+  },
+  "dependencies": {
+    "react": "workspace:*",
+    "react-dom": "workspace:*",
+    "yd-hooks": "workspace:*"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+# 默认忽略 dist，但保留私仓预构建产物
+dist/
+!packages/yd-libs/dist/
+!packages/yd-libs/dist/**
+!packages/yd-hooks/dist/
+!packages/yd-hooks/dist/**
+.pnpm-store/
+.yarn/
+.DS_Store
+*.log

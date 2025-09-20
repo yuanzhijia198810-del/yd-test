@@ -1,0 +1,17 @@
+{
+  "name": "yd-libs",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "clean": "rimraf dist",
+    "lint": "tsc --noEmit",
+    "test": "vitest run"
+  }
+}
